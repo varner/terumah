@@ -32,11 +32,21 @@
 
 body {
 	font-family: 'Unibody';
-    
+    font-size: 13px;
 }
 
+.container {
+    margin: 0 auto;
+}
+
+.bigbody {
+    font-family: 'Unibody';
+    font-size: 25px;
+}
+
+
 .sun, .time, .ancestors {
-    font-size: 13px;
+    font-size: 11px;
 	font-family: 'Unibody Bold';
 	font-weight: bold;
 	text-decoration: underline;
@@ -44,11 +54,12 @@ body {
 
 .alt {
 	font-family: 'Unibody Black';
-	font-weight: bold;
+
+    font-size: 25px
 }
 
 .char {
-	font-size: 36px;
+	font-size: 50px;
 	color: white;
 	background: black;
 	padding: 5px;
@@ -59,13 +70,13 @@ body {
 
 .page {
     padding-top: 40px;
-    padding-right: 50px;
+    padding-right:40px;
     padding-bottom: 40px;
     padding-left: 50px;
     border: 1px solid black;
-    width: 1200px;
-    height: 900px;
-    float: left;
+    width: 1000px;
+    height: 750px;
+    margin: 0 auto;
 }
 
 .left {
@@ -73,7 +84,6 @@ body {
     width: 40%;
     padding: 3%;
     padding-right: 7%;
-    height: 300px;
 }
 
 .right {

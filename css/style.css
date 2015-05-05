@@ -47,3 +47,24 @@ body {
 	float: left;
 	display: inline;
 }
+
+.page {
+    border: 1px solid black;
+}
+
+#down, #up {
+    border: 1px solid black;
+    background: white;
+    min-height: 100px;
+    min-width: 100px;
+    top: calc(50% - 50px);
+    position: fixed;
+}
+
+#up {
+    left: 5px;
+}
+
+#down {
+    right: 5px;
+}

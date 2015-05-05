@@ -46,7 +46,7 @@ body {
     
 .sun, .time, .ancestors {
     font-size: 11px;
-	font-family: 'Unibody Bold';
+	font-family: 'Unibody Black';
 	font-weight: bold;
 	text-decoration: underline;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .char {
-	font-size: 36px;
+	font-size: 70px;
 	color: white;
 	background: black;
 	padding: 5px;

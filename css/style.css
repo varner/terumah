@@ -30,9 +30,12 @@
     font-style: normal;
 }
 
+html {
+    cursor: url('../cursor/frowny1.png'), move;
+}
+
 body {
 	font-family: 'Unibody';
-    
 }
 
 .sun, .time, .ancestors {

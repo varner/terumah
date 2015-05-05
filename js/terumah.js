@@ -3,7 +3,7 @@
 
 var min = 1;
 var page = 1;
-var max = 11;
+var max = 6;
 var delay = 500;
 
 $( document ).ready(function() {

@@ -11,6 +11,12 @@
 }
 
 @font-face {
+    font-family: 'Unibody Black';
+    src: url('../fonts/Unibody8Pro-Black.otf');
+}
+
+
+@font-face {
     font-family: 'Unibody Bold';
     src: url('../fonts/Unibody8Pro-Bold.otf');
     font-weight: bold;
@@ -19,23 +25,25 @@
 
 @font-face {
     font-family: 'Unibody';
-    src: url('../fonts/Unibody8Pro-Regular.otf');
+    src: url('../fonts/Unibody8Pro-RegularItalic.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
 	font-family: 'Unibody';
+    
 }
 
 .sun, .time, .ancestors {
+    font-size: 13px;
 	font-family: 'Unibody Bold';
 	font-weight: bold;
 	text-decoration: underline;
 }
 
 .alt {
-	font-family: 'Unibody Bold';
+	font-family: 'Unibody Black';
 	font-weight: bold;
 }
 

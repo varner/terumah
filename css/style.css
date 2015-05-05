@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Cross';
+    src: url('fonts/cross-stitch-blackletter-webfont.eot');
+    src: url('fonts/cross-stitch-blackletter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cross-stitch-blackletter-webfont.woff2') format('woff2'),
+         url('fonts/cross-stitch-blackletter-webfont.woff') format('woff'),
+         url('fonts/cross-stitch-blackletter-webfont.ttf') format('truetype'),
+         url('fonts/cross-stitch-blackletter-webfont.svg#cross_stitch_blackletterRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+@font-face {
+    font-family: 'Unibody Bold';
+    src: url('fonts/Unibody8Pro-Bold.otf');
+    font-weight: bold;
+    font-style: bold;
+
+@font-face {
+    font-family: 'Unibody';
+    src: url('fonts/Unibody8Pro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+
+body {
+	font-family: 'Unibody';
+
+.sun, .time, .ancestors {
+	font-family: 'Unibody Bold';
+	font-weight: bold;
+	text-decoration: underline;
+
+.alt {
+	font-family: "", monospace;
+
+.char {
+	font-size: 36px;
+	color: white;
+	background: black;
+	padding: 5px;
+	font-family: "Cross", monospace;
+	float: left;
+	display: inline;
+}

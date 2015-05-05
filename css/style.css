@@ -88,18 +88,18 @@ body {
 }
 
 #down, #up {
-    border: 1px solid black;
-    background: white;
-    min-height: 100px;
-    min-width: 100px;
-    top: calc(50% - 50px);
+    min-height: 80px;
+    min-width: 80px;
+    top: calc(50% - 40px);
     position: fixed;
 }
 
 #up {
+    background: url("../arrows/arrow1.png");
     left: 5px;
 }
 
 #down {
+    background: url("../arrows/arrow2.png");
     right: 5px;
 }

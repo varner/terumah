@@ -25,29 +25,11 @@ $( document ).ready(function() {
             }, delay);
         }
     });
-});
-
-$(document).keydown(function(e) {
-    switch(e.which) {
-        case 37: // left
-            if (page != min) {
-                page--;
-                $('html,body').animate({
-                  scrollTop: $( "#" + page.toString() ).offset().top
-                }, delay);
-            }
-        break;
-            
-        case 39: // right
-            if (page != max) {
-                page++;
-                $('html,body').animate({
-                  scrollTop: $( "#" + page.toString() ).offset().top
-                }, delay);
-            }
-        break;
-            
-        default: return; // exit this handler for other keys
-    }
-    e.preventDefault(); // prevent the default action (scroll / move caret)
+    
+    $(document).mousemove(function(event){
+        var eighth = $( window ).width() / 8;
+        var image = Math.floor(event.pageX / eighth) + 1;
+        $( 'html' ).css('cursor', "url('../cursor/frowny" 
+                      + image.toString() + ".png'), move" );
+    });
 });

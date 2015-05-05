@@ -36,9 +36,14 @@ html {
 
 body {
 	font-family: 'Unibody';
-    
+    font-size: 13px;
 }
 
+.bigbody {
+	font-family: 'Unibody';
+    font-size: 26px;
+}
+    
 .sun, .time, .ancestors {
     font-size: 11px;
 	font-family: 'Unibody Bold';
@@ -67,9 +72,9 @@ body {
     padding-bottom: 40px;
     padding-left: 50px;
     border: 1px solid black;
-    width: 1200px;
-    height: 900px;
-    float: left;
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
 }
 
 .left {
